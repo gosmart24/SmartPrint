@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.samtech.smartprint.HelpTransfer">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Step 1: Click Transfer as shown below" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView32"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/transfera" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView32"
+                android:layout_centerHorizontal="true"
+                android:text="Step 2.1: fill the receiving account No." />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView3"
+                android:layout_centerHorizontal="true"
+                android:text="Step 2.2 Select the receiving Bank" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView34"
+                android:layout_centerHorizontal="true"
+                android:text="Step 2.3 fill the amount to transfer" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView36"
+                android:layout_centerHorizontal="true"
+                android:text="Step 2.4 Click Transfer" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView35"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/transferb" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView3"
+                android:layout_centerHorizontal="true"
+                android:text="Step 3: Click yes to continue" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView37"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/transferc" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView3"
+                android:layout_centerHorizontal="true"
+                android:text="Step 4: fill the pin if you see the screen below and Click proceed" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView38"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/billd" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Step 5: Or place your finger on the Fingerprint sensor to Corfirm transaction as shown below" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/scrollView3"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/transferd" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

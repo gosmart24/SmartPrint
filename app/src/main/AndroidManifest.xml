@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samtech.smartprint">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/kings"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:label="Welcome"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:label="Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activate"
+            android:label="Activation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuickHelp"
+            android:label="Quick Help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyAccount"
+            android:label="Account Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CheckBalance"
+            android:label="Check Balance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BuyAirtime"
+            android:label="Buy Airtime"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MakeTransfer"
+            android:label="Make Transfer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TransectionHistory"
+            android:label="Transaction History"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BillList"
+            android:label="Bill Options"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FingerprintAuthen"
+            android:label="Confirmation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Otp"
+            android:label="Transaction confirmation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TransectionPin"
+            android:label="Authentication"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Recover_pass"
+            android:label="Account Recovery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Resetpassword"
+            android:label="Reset Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewAccount"
+            android:label="Create Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HelpGetstarted"
+            android:label="Get Started" />
+        <activity
+            android:name=".HelpCreateAccount"
+            android:label="Create Account" />
+        <activity
+            android:name=".HelpRegister"
+            android:label="Register" />
+        <activity
+            android:name=".HelpActivate"
+            android:label="Activate" />
+        <activity
+            android:name=".HelpLogin"
+            android:label="Login" />
+        <activity
+            android:name=".HelpBills"
+            android:label="Bills" />
+        <activity
+            android:name=".HelpTransfer"
+            android:label="Transfer" />
+        <activity
+            android:name=".HelpAirtime"
+            android:label="Airtime" />
+    </application>
+
+</manifest>

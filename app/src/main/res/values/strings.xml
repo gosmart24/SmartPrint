@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">KingsMobile</string>
+    <string name="requiredfields">Required fields cannot be empty!</string>
+    <string name="nouserregistered">No register User found!</string>
+    <string name="invalidpin">Invalid pin!</string>
+    <string name="incorrectcode">Incorrect activation code try again!</string>
+    <string name="otpempty">OTP has expired! Please restart Transaction</string>
+    <string name="notregister">No transaction pin in database!</string>
+    <string name="invalidPin">Invalid pin!</string>
+    <string name="kings_bank_plc">Kings Bank Plc</string>
+    <string name="failed">authentication failed!</string>
+    <string name="royalwelcome">Welcome to the Royal Family, we are committed to providing you with the best bank service.
+    please visit us at www.kingsbank.com for more information or call us on 070-3862-0440. Thanks for Banking with us.</string>
+    <string name="Steps">Step 3: Select Create Account </string>
+    <string name="unknownerror">Unknown data Error</string>
+    <string name="notregistered">You have not yet registered an account for mobile banking</string>
+    <string-array name="banklist">
+        <item>Access Bank</item>
+        <item>Diamond Bank</item>
+        <item>Eco Bank</item>
+        <item>First Bank</item>
+        <item>F C M B</item>
+        <item>Fidelity Bank</item>
+        <item>GTB</item>
+        <item>U B A</item>
+        <item>Union Bank</item>
+        <item>Zenith Bank</item>
+    </string-array>
+    <string-array name="networks">
+        <item>MTN</item>
+        <item>AIRTEL</item>
+        <item>ETISALAT</item>
+        <item>GLO</item>
+    </string-array>
+    <string-array name="bills">
+        <item>Flight Ticket</item>
+        <item>Electricity Bill</item>
+        <item>Water Bill</item>
+        <item>DSTV </item>
+        <item>TAX</item>
+    </string-array>
+
+</resources>

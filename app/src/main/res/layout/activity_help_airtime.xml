@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.samtech.smartprint.HelpAirtime">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Step 1:Click Buy Airtime" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView27"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/buya" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView17"
+                android:layout_centerHorizontal="true"
+                android:text="Step 2: Select self if you are buying for yourself" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView28"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/buyb" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView18"
+                android:layout_centerHorizontal="true"
+                android:text="Step 3: type the receiving phone No. in the box below " />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView29"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/buyc" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView19"
+                android:layout_centerHorizontal="true"
+                android:text="Step 4: Select Network operator from the list below" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView30"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/buyd" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView20"
+                android:layout_centerHorizontal="true"
+                android:text="Step 5: Click Load Airtime" />
+
+            <ImageView
+                android:id="@+id/imageView200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView30"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/buyf" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView15"
+                android:layout_centerHorizontal="true"
+                android:text="Step 4: fill the Transaction pin and click Proceed" />
+
+            <ImageView
+                android:id="@+id/imageView188"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textView26"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/billd" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
